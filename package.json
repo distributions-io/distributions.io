@@ -1,0 +1,44 @@
+{
+  "name": "distributions.io",
+  "version": "0.0.0",
+  "description": "Collection of probability distributions.",
+  "author": {
+    "name": "Philipp Burckhardt",
+    "email": "pburckhardt@outlook.com"
+  },
+  "contributors": [
+    {
+      "name": "Philipp Burckhardt",
+      "email": "pburckhardt@outlook.com"
+    }
+  ],
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/coverage -- -R spec",
+    "codecov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/codecov/coverage --report lcovonly -- -R spec && cat ./reports/codecov/coverage/lcov.info | codecov && rm -rf ./reports/codecov"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/distributions-io/distributions.io.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/distributions-io/distributions.io/issues"
+  },
+  "dependencies": {
+    "distributions-exponential-cdf": "0.0.1",
+    "distributions-exponential-mgf": "0.0.0",
+    "distributions-exponential-pdf": "0.0.1",
+    "distributions-exponential-quantile": "0.0.1"
+  },
+  "devDependencies": {
+    "chai": "3.x.x",
+    "codecov.io": "^0.1.5",
+    "istanbul": "^0.3.0",
+    "jshint": "2.x.x",
+    "jshint-stylish": "2.x.x",
+    "mocha": "2.x.x"
+  },
+  "license": "MIT"
+}

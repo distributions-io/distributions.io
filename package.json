@@ -27,6 +27,7 @@
     "url": "https://github.com/distributions-io/distributions.io/issues"
   },
   "dependencies": {
+    "distributions-binomial-mgf": "0.0.0",
     "distributions-cauchy-cdf": "0.0.0",
     "distributions-cauchy-pdf": "0.0.2",
     "distributions-cauchy-quantile": "0.0.0",
@@ -58,6 +59,9 @@
     "distributions-logistic-cdf": "0.0.0",
     "distributions-logistic-pdf": "0.0.1",
     "distributions-logistic-quantile": "0.0.0",
+    "distributions-lognormal-cdf": "0.0.0",
+    "distributions-lognormal-pdf": "0.0.1",
+    "distributions-lognormal-quantile": "0.0.0",
     "distributions-normal-cdf": "0.0.1",
     "distributions-normal-pdf": "0.0.2",
     "distributions-normal-quantile": "0.0.0",
@@ -78,7 +82,13 @@
     "distributions-rayleigh-quantile": "0.0.2",
     "distributions-rayleigh-skewness": "0.0.0",
     "distributions-rayleigh-variance": "0.0.0",
-    "distributions-t-pdf": "0.0.1"
+    "distributions-t-pdf": "0.0.1",
+    "distributions-triangular-cdf": "0.0.0",
+    "distributions-triangular-pdf": "0.0.1",
+    "distributions-triangular-quantile": "0.0.0",
+    "distributions-weibull-cdf": "0.0.0",
+    "distributions-weibull-pdf": "0.0.0",
+    "distributions-weibull-quantile": "0.0.0"
   },
   "devDependencies": {
     "chai": "3.x.x",

@@ -51,6 +51,9 @@ var dist = require( 'distributions.io' );
 		-	[random()][beta-random]
 		-	[mean()][beta-mean], [median()][beta-median], [variance()][beta-variance], [skewness()][beta-skewness], [ekurtosis()][beta-ekurtosis], [entropy()][beta-entropy]
 	-	.cauchy (Cauchy)
+		-	[pdf()][cauchy-pdf], [cdf()][cauchy-cdf], [quantile()][cauchy-quantile]
+		-	[random()][cauchy-random]
+		-	[median()][cauchy-median], [entropy()][cauchy-entropy]
 	-	.chisq (Chi-Squared)
 		-	[pdf()][chisquare-pdf], [cdf()][chisquare-cdf], [quantile()][chisquare-quantile],[mgf()][chisquare-mgf]
 		-	[random()][chisquare-random]
@@ -119,6 +122,7 @@ var dist = require( 'distributions.io' );
 		-	[pdf()][weibull-pdf], [cdf()][weibull-cdf], [quantile()][weibull-quantile],[mgf()][weibull-mgf]
 		-	[random()][weibull-random]
 		-	[mean()][weibull-mean], [median()][weibull-median], [variance()][weibull-variance], [skewness()][weibull-skewness], [ekurtosis()][weibull-ekurtosis], [entropy()][weibull-entropy]
+
 
 
 ---

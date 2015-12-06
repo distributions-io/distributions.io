@@ -86,6 +86,10 @@
     "distributions-triangular-cdf": "0.0.0",
     "distributions-triangular-pdf": "0.0.1",
     "distributions-triangular-quantile": "0.0.0",
+    "distributions-uniform-cdf": "0.0.0",
+    "distributions-uniform-mgf": "0.0.0",
+    "distributions-uniform-pdf": "^1.0.1",
+    "distributions-uniform-quantile": "0.0.1",
     "distributions-weibull-cdf": "0.0.0",
     "distributions-weibull-pdf": "0.0.0",
     "distributions-weibull-quantile": "0.0.0"

@@ -119,6 +119,8 @@ var dist = require( 'distributions.io' );
 		-	[pdf()][weibull-pdf], [cdf()][weibull-cdf], [quantile()][weibull-quantile],[mgf()][weibull-mgf]
 		-	[random()][weibull-random]
 		-	[mean()][weibull-mean], [median()][weibull-median], [variance()][weibull-variance], [skewness()][weibull-skewness], [ekurtosis()][weibull-ekurtosis], [entropy()][weibull-entropy]
+
+
 ---
 ## Examples
 
@@ -458,6 +460,18 @@ Copyright &copy; 2015. The Distributions.io Authors.
 [normal-skewness]: https://github.com/distributions-io/normal-skewness
 [normal-ekurtosis]: https://github.com/distributions-io/normal-ekurtosis
 [normal-entropy]: https://github.com/distributions-io/normal-entropy
+
+[pareto-type1-pdf]: https://github.com/distributions-io/pareto-type1-pdf
+[pareto-type1-cdf]: https://github.com/distributions-io/pareto-type1-cdf
+[pareto-type1-quantile]: https://github.com/distributions-io/pareto-type1-quantile
+[pareto-type1-mgf]: https://github.com/distributions-io/pareto-type1-mgf
+[pareto-type1-random]: https://github.com/distributions-io/pareto-type1-random
+[pareto-type1-mean]: https://github.com/distributions-io/pareto-type1-mean
+[pareto-type1-median]: https://github.com/distributions-io/pareto-type1-median
+[pareto-type1-variance]: https://github.com/distributions-io/pareto-type1-variance
+[pareto-type1-skewness]: https://github.com/distributions-io/pareto-type1-skewness
+[pareto-type1-ekurtosis]: https://github.com/distributions-io/pareto-type1-ekurtosis
+[pareto-type1-entropy]: https://github.com/distributions-io/pareto-type1-entropy
 
 [triangular-pdf]: https://github.com/distributions-io/triangular-pdf
 [triangular-cdf]: https://github.com/distributions-io/triangular-cdf
